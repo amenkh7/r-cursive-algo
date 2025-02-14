@@ -11,7 +11,7 @@ function ticketPrice() {
         if (age <= 12) return 10;
         if (age <= 17) return 15;
         if (age >= 18) return 20;
-        return price(age); // This line ensures recursion is used (though unnecessary)
+        return price(age);
     }
     return price(age);
 }
